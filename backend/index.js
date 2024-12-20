@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "http://localhost:5173", // Frontend React app URL
+      "https://docnet-demo-frontend.vercel.app", // Frontend React app URL
       "http://localhost:5174", // Admin React app URL (if running separately)
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
