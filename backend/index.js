@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "https://docnet-demo-frontend.vercel.app", // Frontend React app URL
-      "http://localhost:5174", // Admin React app URL (if running separately)
+      "https://docnet-demo-admin.vercel.app", // Admin React app URL (if running separately)
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
